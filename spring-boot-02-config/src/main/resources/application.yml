@@ -1,2 +1,11 @@
 server:
   port: 80
+logging:
+  level:
+#要指定到com.java  （默认是info级别）
+    com:
+      java: trace
+#指定路径，也可以改成G:/spring.log
+  file: springboot.log
+# 在当前磁盘跟路径下创建spring文件夹,然后springboot会在下面创建spring.log文件
+#  path: /spring/log

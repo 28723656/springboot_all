@@ -19,6 +19,8 @@ public class SpringBoot02ConfigApplicationTests {
 	  // 日志的级别由低到高
 		logger.trace("trance日志：跟踪轨迹");
 		logger.debug("debug日志：");
+
+	    // 默认使用的是info及以后的级别
 		logger.info("info日志");
 		logger.warn("warn日志");
 		logger.error("error日志");
