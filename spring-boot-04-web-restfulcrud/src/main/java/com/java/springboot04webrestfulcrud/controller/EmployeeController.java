@@ -23,4 +23,14 @@ public class EmployeeController {
         model.addAttribute("emps",employees);
         return "emp/list";
     }
+
+    /**
+     * 添加页面
+     * @return
+     */
+    @GetMapping("/emp")
+    public String toAddPage(){
+
+        return "emp/add";
+    }
 }
