@@ -1,0 +1,68 @@
+2019-05-06 15:01:18.704  INFO 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Starting SpringBoot02ConfigApplicationTests on ThingLyncdeMBP with PID 4841 (started by thinglync in /Users/thinglync/xr/forTest/springboot/spring-boot-02-config)
+2019-05-06 15:01:18.705 DEBUG 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-05-06 15:01:18.706  INFO 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : No active profile set, falling back to default profiles: default
+2019-05-06 15:01:18.857  INFO 4841 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:01:18 CST 2019]; root of context hierarchy
+2019-05-06 15:01:22.614  INFO 4841 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:01:18 CST 2019]; root of context hierarchy
+2019-05-06 15:01:22.735  INFO 4841 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-06 15:01:22.741  INFO 4841 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-06 15:01:22.787  INFO 4841 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:01:22.787  INFO 4841 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:01:22.891  INFO 4841 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:01:23.094  INFO 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Started SpringBoot02ConfigApplicationTests in 5.513 seconds (JVM running for 7.512)
+2019-05-06 15:01:23.162 TRACE 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : trance日志：跟踪轨迹
+2019-05-06 15:01:23.163 DEBUG 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : debug日志：
+2019-05-06 15:01:23.163  INFO 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : info日志
+2019-05-06 15:01:23.163  WARN 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : warn日志
+2019-05-06 15:01:23.164 ERROR 4841 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : error日志
+2019-05-06 15:01:23.173  INFO 4841 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:01:18 CST 2019]; root of context hierarchy
+2019-05-06 15:21:12.546  INFO 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Starting SpringBoot02ConfigApplicationTests on ThingLyncdeMBP with PID 4893 (started by thinglync in /Users/thinglync/xr/forTest/springboot/spring-boot-02-config)
+2019-05-06 15:21:12.548 DEBUG 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-05-06 15:21:12.548  INFO 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : No active profile set, falling back to default profiles: default
+2019-05-06 15:21:12.643  INFO 4893 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@581ac8a8: startup date [Mon May 06 15:21:12 CST 2019]; root of context hierarchy
+2019-05-06 15:21:16.209  INFO 4893 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@581ac8a8: startup date [Mon May 06 15:21:12 CST 2019]; root of context hierarchy
+2019-05-06 15:21:16.349  INFO 4893 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-06 15:21:16.351  INFO 4893 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-06 15:21:16.461  INFO 4893 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:21:16.465  INFO 4893 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:21:16.651  INFO 4893 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:21:17.111  INFO 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Started SpringBoot02ConfigApplicationTests in 5.869 seconds (JVM running for 8.293)
+2019-05-06 15:21:17.185 TRACE 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : trance日志：跟踪轨迹
+2019-05-06 15:21:17.185 DEBUG 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : debug日志：
+2019-05-06 15:21:17.185  INFO 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : info日志
+2019-05-06 15:21:17.185  WARN 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : warn日志
+2019-05-06 15:21:17.186 ERROR 4893 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : error日志
+2019-05-06 15:21:17.229  INFO 4893 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@581ac8a8: startup date [Mon May 06 15:21:12 CST 2019]; root of context hierarchy
+2019-05-06 15:22:00.469  INFO 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Starting SpringBoot02ConfigApplicationTests on ThingLyncdeMBP with PID 4898 (started by thinglync in /Users/thinglync/xr/forTest/springboot/spring-boot-02-config)
+2019-05-06 15:22:00.472 DEBUG 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-05-06 15:22:00.473  INFO 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : No active profile set, falling back to default profiles: default
+2019-05-06 15:22:00.584  INFO 4898 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:22:00 CST 2019]; root of context hierarchy
+2019-05-06 15:22:03.972  INFO 4898 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:22:00 CST 2019]; root of context hierarchy
+2019-05-06 15:22:04.122  INFO 4898 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-06 15:22:04.124  INFO 4898 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-06 15:22:04.197  INFO 4898 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:22:04.198  INFO 4898 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:22:04.266  INFO 4898 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:22:04.548  INFO 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Started SpringBoot02ConfigApplicationTests in 5.4 seconds (JVM running for 7.173)
+2019-05-06 15:22:04.799 TRACE 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : trance日志：跟踪轨迹
+2019-05-06 15:22:04.799 DEBUG 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : debug日志：
+2019-05-06 15:22:04.800  INFO 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : info日志
+2019-05-06 15:22:04.800  WARN 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : warn日志
+2019-05-06 15:22:04.800 ERROR 4898 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : error日志
+2019-05-06 15:22:04.819  INFO 4898 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:22:00 CST 2019]; root of context hierarchy
+2019-05-06 15:23:32.601  INFO 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Starting SpringBoot02ConfigApplicationTests on ThingLyncdeMBP with PID 4902 (started by thinglync in /Users/thinglync/xr/forTest/springboot/spring-boot-02-config)
+2019-05-06 15:23:32.602 DEBUG 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-05-06 15:23:32.625  INFO 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : No active profile set, falling back to default profiles: default
+2019-05-06 15:23:32.730  INFO 4902 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:23:32 CST 2019]; root of context hierarchy
+2019-05-06 15:23:36.644  INFO 4902 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:23:32 CST 2019]; root of context hierarchy
+2019-05-06 15:23:36.769  INFO 4902 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-06 15:23:36.772  INFO 4902 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-06 15:23:36.834  INFO 4902 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:23:36.835  INFO 4902 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:23:36.939  INFO 4902 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-06 15:23:37.186  INFO 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : Started SpringBoot02ConfigApplicationTests in 6.286 seconds (JVM running for 8.324)
+2019-05-06 15:23:37.273 TRACE 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : trance日志：跟踪轨迹
+2019-05-06 15:23:37.274 DEBUG 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : debug日志：
+2019-05-06 15:23:37.274  INFO 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : info日志
+2019-05-06 15:23:37.274  WARN 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : warn日志
+2019-05-06 15:23:37.275 ERROR 4902 --- [main] c.j.s.SpringBoot02ConfigApplicationTests : error日志
+2019-05-06 15:23:37.354  INFO 4902 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1b1426f4: startup date [Mon May 06 15:23:32 CST 2019]; root of context hierarchy
