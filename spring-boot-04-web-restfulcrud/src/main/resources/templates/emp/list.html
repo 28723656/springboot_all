@@ -76,14 +76,20 @@
 									<td th:text="${emp.department.departmentName}" >1,001</td>
 									<td th:text="${#dates.format(emp.birth,'yyyy-MM-dd HH:mm:ss')}" >1,001</td>
                                     <td>
-                                        <button class="btn btn-primary btn-sm" >编辑 </button>
-                                        <button class="btn btn-danger btn-sm" >删除 </button>
+                                        <a class="btn btn-primary btn-sm" th:href="@{/emp/}+${emp.id}" >编辑 </a>
+                                        <button th:attr="del_uri=@{/emp/}+${emp.id}" class=" deleteBtn btn btn-danger btn-sm" >删除 </button>
                                     </td>
 								</tr>
 							</tbody>
 						</table>
 					</div>
 				</main>
+
+
+				<form id="deleteEmpForm" method="post" >
+						<input th:type="hidden" name="_method" value="delete"  >
+				</form>
+
 			</div>
 		</div>
 
@@ -103,32 +109,10 @@
 		<!-- Graphs -->
 		<script type="text/javascript" src="asserts/js/Chart.min.js"></script>
 		<script>
-			var ctx = document.getElementById("myChart");
-			var myChart = new Chart(ctx, {
-				type: 'line',
-				data: {
-					labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-					datasets: [{
-						data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
-						lineTension: 0,
-						backgroundColor: 'transparent',
-						borderColor: '#007bff',
-						borderWidth: 4,
-						pointBackgroundColor: '#007bff'
-					}]
-				},
-				options: {
-					scales: {
-						yAxes: [{
-							ticks: {
-								beginAtZero: false
-							}
-						}]
-					},
-					legend: {
-						display: false,
-					}
-				}
+			$(".deleteBtn").click(function () {
+				// 删除
+				$("#deleteEmpForm").attr("action",$(this).attr("del_uri")).submit();
+				return false;
 			});
 		</script>
 

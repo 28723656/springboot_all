@@ -17,7 +17,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
 
         // 浏览器发送 /java 也来到/success请求
-        registry.addViewController("/java").setViewName("success");
+       registry.addViewController("/java").setViewName("success");
 //        registry.addViewController("/java/**").setViewName("success");
     }
     // 视图控制，路径转发到哪
@@ -35,8 +35,8 @@ public class MyMvcConfig implements WebMvcConfigurer {
             // 注册拦截器
             @Override
             public void addInterceptors(InterceptorRegistry registry) {
-                registry.addInterceptor(new LoginHandleInterceptor()).addPathPatterns("/**")
-                .excludePathPatterns("/index.html","/","/user/login");
+             /*   registry.addInterceptor(new LoginHandleInterceptor()).addPathPatterns("/**")
+                .excludePathPatterns("/index.html","/","/user/login");*/
             }
         };
 
