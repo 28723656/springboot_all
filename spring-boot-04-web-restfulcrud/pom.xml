@@ -30,7 +30,7 @@
             </exclusions>
         </dependency>
 
-        <!--改为使用jetty服务器-->
+        <!--改为使用jetty服务器，同理还有 undertow-->
         <dependency>
             <artifactId>spring-boot-starter-jetty</artifactId>
             <groupId>org.springframework.boot</groupId>
