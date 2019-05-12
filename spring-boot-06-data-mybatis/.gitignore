@@ -27,10 +27,3 @@ HELP.md
 
 ### VS Code ###
 .vscode/
-/.mvn/
-/mvnw
-/mvnw.cmd
-!/pom.xml
-!/src/main/resources/application.properties
-!/src/main/resources/templates/
-!/src/main/resources/static/

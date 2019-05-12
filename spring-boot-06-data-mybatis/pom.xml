@@ -8,7 +8,7 @@
         <version>1.5.20.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.java</groupId>
+    <groupId>com.atguigu</groupId>
     <artifactId>spring-boot-06-data-mybatis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-06-data-mybatis</name>
@@ -44,12 +44,12 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Druid数据库连接池  -->
+        <!--引入druid-->
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-            <version>1.1.16</version>
+            <version>1.1.15</version>
         </dependency>
     </dependencies>
 
